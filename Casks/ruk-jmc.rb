@@ -21,8 +21,4 @@ cask "ruk-jmc" do
   end
 
   app "jmc-#{version.csv.first}_osx-#{arch}/JDK Mission Control.app"
-
-  caveats do
-    depends_on_java "11"
-  end
 end
